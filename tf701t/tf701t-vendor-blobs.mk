@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES := \
     vendor/asus/tf701t/proprietary/bin/ussr_setup.sh:system/bin/ussr_setup.sh \
     vendor/asus/tf701t/proprietary/bin/ussrd:system/bin/ussrd \
     vendor/asus/tf701t/proprietary/bin/usdwatchdog:system/bin/usdwatchdog \
-    vendor/asus/tf701t/proprietary/bin/widevine_install:system/bin/widevine_install \
     vendor/asus/tf701t/proprietary/bin/wifimacwriter:system/bin/wifimacwriter \
     vendor/asus/tf701t/proprietary/etc/camera/data/config.dat:system/etc/camera/data/config.dat \
     vendor/asus/tf701t/proprietary/etc/camera/persist/camera_overrides_cal.isp:system/etc/camera/persist/camera_overrides_cal.isp \
@@ -195,9 +194,6 @@ PRODUCT_COPY_FILES := \
     vendor/asus/tf701t/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
     vendor/asus/tf701t/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/asus/tf701t/proprietary/lib/libussrd.so:system/lib/libussrd.so \
-    vendor/asus/tf701t/proprietary/lib/libwfd_source.so:system/lib/libwfd_source.so \
-    vendor/asus/tf701t/proprietary/lib/libwfd_common.so:system/lib/libwfd_common.so \
-    vendor/asus/tf701t/proprietary/lib/libwfd_sink.so:system/lib/libwfd_sink.so \
     vendor/asus/tf701t/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
     vendor/asus/tf701t/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/asus/tf701t/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
@@ -236,7 +232,6 @@ PRODUCT_COPY_FILES := \
     vendor/asus/tf701t/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
     vendor/asus/tf701t/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
     vendor/asus/tf701t/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/asus/tf701t/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/asus/tf701t/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/asus/tf701t/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/asus/tf701t/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
