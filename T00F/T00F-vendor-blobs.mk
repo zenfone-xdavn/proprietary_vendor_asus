@@ -24,12 +24,14 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/bin/fg_conf:system/bin/fg_conf \
     vendor/asus/T00F/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/asus/T00F/proprietary/bin/houdini:system/bin/houdini \
+    vendor/asus/T00F/proprietary/bin/intel_prop:system/bin/intel_prop \
     vendor/asus/T00F/proprietary/bin/logcontrol:system/bin/logcontrol \
     vendor/asus/T00F/proprietary/bin/mmgr:system/bin/mmgr \
     vendor/asus/T00F/proprietary/bin/msvdx_bin:system/bin/msvdx_bin \
     vendor/asus/T00F/proprietary/bin/nvm_server:system/bin/nvm_server \
     vendor/asus/T00F/proprietary/bin/parameter:system/bin/parameter \
     vendor/asus/T00F/proprietary/bin/topaz_bin:system/bin/topaz_bin \
+    vendor/asus/T00F/proprietary/bin/thermald:system/bin/thermald \
     vendor/asus/T00F/proprietary/bin/update_recovery:system/bin/update_recovery \
     vendor/asus/T00F/proprietary/bin/upi_ug31xx:system/bin/upi_ug31xx \
     vendor/asus/T00F/proprietary/bin/vibrator:system/bin/vibrator \
@@ -433,11 +435,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/hw/audio.hdmi.redhookbay.so:system/lib/hw/audio.hdmi.redhookbay.so \
     vendor/asus/T00F/proprietary/lib/hw/audio.hs_usb.redhookbay.so:system/lib/hw/audio.hs_usb.redhookbay.so \
     vendor/asus/T00F/proprietary/lib/hw/audio.primary.redhookbay.so:system/lib/hw/audio.primary.redhookbay.so \
-    vendor/asus/T00F/proprietary/lib/hw/camera.redhookbay.so:system/lib/hw/camera.redhookbay.so \
+    vendor/asus/T00F/proprietary/lib/hw/camera.vendor.redhookbay.so:system/lib/hw/camera.vendor.redhookbay.so \
     vendor/asus/T00F/proprietary/lib/hw/gps.redhookbay.so:system/lib/hw/gps.redhookbay.so \
     vendor/asus/T00F/proprietary/lib/hw/hall_sensor.redhookbay.so:system/lib/hw/hall_sensor.redhookbay.so \
     vendor/asus/T00F/proprietary/lib/hw/hwcomposer.clovertrail.so:system/lib/hw/hwcomposer.clovertrail.so \
-    vendor/asus/T00F/proprietary/lib/hw/keystore.clovertrail.so:system/lib/hw/keystore.clovertrail.so \
+    vendor/asus/T00F/proprietary/lib/hw/keystore.vendor.clovertrail.so:system/lib/hw/keystore.vendor.clovertrail.so \
     vendor/asus/T00F/proprietary/lib/hw/sensors.redhookbay.so:system/lib/hw/sensors.redhookbay.so \
     vendor/asus/T00F/proprietary/lib/libArcsoft3DNR.so:system/lib/libArcsoft3DNR.so \
     vendor/asus/T00F/proprietary/lib/libArcsoftFaceEffect.so:system/lib/libArcsoftFaceEffect.so \
@@ -456,7 +458,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/libcamera_defocus.so:system/lib/libcamera_defocus.so \
     vendor/asus/T00F/proprietary/lib/libCameraFaceDetection.so:system/lib/libCameraFaceDetection.so \
     vendor/asus/T00F/proprietary/lib/libcamera_pano.so:system/lib/libcamera_pano.so \
-    vendor/asus/T00F/proprietary/lib/libdrm.so:system/lib/libdrm.so \
     vendor/asus/T00F/proprietary/lib/libevent-listener.so:system/lib/libevent-listener.so \
     vendor/asus/T00F/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/asus/T00F/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
@@ -472,8 +473,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/libia_nvm.so:system/lib/libia_nvm.so \
     vendor/asus/T00F/proprietary/lib/libia_panorama.so:system/lib/libia_panorama.so \
     vendor/asus/T00F/proprietary/lib/libicepower.so:system/lib/libicepower.so \
-    vendor/asus/T00F/proprietary/lib/libicui18n.so:system/lib/libicui18n.so \
-    vendor/asus/T00F/proprietary/lib/libicuuc.so:system/lib/libicuuc.so \
     vendor/asus/T00F/proprietary/lib/libintelcamera_jni.so:system/lib/libintelcamera_jni.so \
     vendor/asus/T00F/proprietary/lib/libintelmetadatabuffer.so:system/lib/libintelmetadatabuffer.so \
     vendor/asus/T00F/proprietary/lib/libinterface-provider-lib.so:system/lib/libinterface-provider-lib.so \
@@ -513,6 +512,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/libsensors.proximitysensor.so:system/lib/libsensors.proximitysensor.so \
     vendor/asus/T00F/proprietary/lib/libsepdrm.so:system/lib/libsepdrm.so \
     vendor/asus/T00F/proprietary/lib/libsepipt.so:system/lib/libsepipt.so \
+    vendor/asus/T00F/proprietary/lib/libstock_crypto.so:system/lib/libstock_crypto.so \
     vendor/asus/T00F/proprietary/lib/libsvml.so:system/lib/libsvml.so \
     vendor/asus/T00F/proprietary/lib/libtbd.so:system/lib/libtbd.so \
     vendor/asus/T00F/proprietary/lib/libtcs.so:system/lib/libtcs.so \
