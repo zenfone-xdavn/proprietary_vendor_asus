@@ -512,6 +512,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/libsensors.proximitysensor.so:system/lib/libsensors.proximitysensor.so \
     vendor/asus/T00F/proprietary/lib/libsepdrm.so:system/lib/libsepdrm.so \
     vendor/asus/T00F/proprietary/lib/libsepipt.so:system/lib/libsepipt.so \
+    vendor/asus/T00F/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/asus/T00F/proprietary/lib/libstock_crypto.so:system/lib/libstock_crypto.so \
     vendor/asus/T00F/proprietary/lib/libsvml.so:system/lib/libsvml.so \
     vendor/asus/T00F/proprietary/lib/libtbd.so:system/lib/libtbd.so \
