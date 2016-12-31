@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/bin/fg_conf:system/bin/fg_conf \
     vendor/asus/T00F/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/asus/T00F/proprietary/bin/houdini:system/bin/houdini \
-    vendor/asus/T00F/proprietary/bin/intel_prop:system/bin/intel_prop \
     vendor/asus/T00F/proprietary/bin/logcontrol:system/bin/logcontrol \
     vendor/asus/T00F/proprietary/bin/mmgr:system/bin/mmgr \
     vendor/asus/T00F/proprietary/bin/msvdx_bin:system/bin/msvdx_bin \
